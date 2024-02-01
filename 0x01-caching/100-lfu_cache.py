@@ -37,4 +37,3 @@ class LFUCache(BaseCaching):
         if key in self.cache_data:
             self.obj[key] += 1
             return self.cache_data.get(key)
-
